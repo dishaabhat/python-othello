@@ -131,7 +131,7 @@ class Board:
 				#Player must pass?
 				self.passTest()
 		else:
-			screen.create_text(250,550,anchor="c",font=("Consolas",15), text="The game is done!")
+			screen.create_text(250,550,anchor="c",font=("Consolas",15), text="You have won!")
 
 	#Moves to position
 	def boardMove(self,x,y):
